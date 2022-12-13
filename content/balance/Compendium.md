@@ -19,6 +19,7 @@ sidebarContents:  |
   <br>[Potions](#potions)
   <br>[Food](#food)
   <br>[Phials](#phials)
+  <br>[Enchants](#enchants)
  
   [5. Gearing](#gearing)
   <br>[Stats](#stats)
