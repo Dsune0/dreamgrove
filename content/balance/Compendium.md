@@ -101,14 +101,12 @@ When reading the priority lists provided below, you should not be thinking about
 
 </div>
 
-<label for="checkbox">Stellar Flare</label>
+<label for="checkbox">{{< spell 202347 "Stellar Flare" >}}</label>
 <input type="checkbox" id="checkbox" onclick="toggleContent()">
 
 **Single Target priority list:**
 - Keep up {{< spell 8921 "Moonfire" >}}, {{< spell 93402 "Sunfire" >}} and refresh within pandemic (30% of base duration) inside Eclipse and if they would expire otherwise outside Eclipse.
-<div id="content" style="display: none;">
-- Keep up {{< spell 202347 "Stellar Flare" >}} and refresh within pandemic (30% of base duration) inside Eclipse and if it would expire otherwise outside Eclipse.
-</div>
+<div id="content" style="display: none;">- Keep up {{< spell 202347 "Stellar Flare" >}} and refresh within pandemic (30% of base duration) inside Eclipse and if it would expire otherwise outside Eclipse.</div>
 - Use {{< spell 190984 "Wrath" >}} to enter Lunar Eclipse if one of the following conditions are met:
     - You have 520 Astral Power or more towards {{< spell 393961 "Pulsar" >}}.
     - The cooldown of {{< spell 194223 "CA" >}}/{{< spell 102560 "Inc" >}} has less than 5 seconds remaining.
