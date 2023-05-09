@@ -1,1 +1,23 @@
+---
+layout: default
+title: My Page
+---
 
+<script>
+function toggleContent() {
+    var checkbox = document.getElementById('checkbox');
+    var content = document.getElementById('content');
+    if (checkbox.checked) {
+        content.style.display = 'block';
+    } else {
+        content.style.display = 'none';
+    }
+}
+</script>
+
+<label for="checkbox">Toggle Content:</label>
+<input type="checkbox" id="checkbox" onclick="toggleContent()">
+
+<div id="content" style="display: none;">
+{% include_relative compendium.md %}
+</div>
